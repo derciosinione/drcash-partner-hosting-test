@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DrcashPartner.props" />
+</Project>
