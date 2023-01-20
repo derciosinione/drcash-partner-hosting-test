@@ -16,7 +16,7 @@ public class OperationalController : ControllerBase
         _logger = logger;
     }
 
-    [HttpPost("/patients/{message}")]
+    [HttpPost("patients/{message}")]
     public IActionResult Patients(string message)
     {
         _logger.LogInformation("---> Getting message from Operational Patient SNS");
